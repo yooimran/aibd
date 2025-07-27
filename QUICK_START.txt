@@ -1,0 +1,35 @@
+AI-BD Chatbot Quick Start Guide
+==============================
+
+1. Prerequisites
+----------------
+- Python 3.7 or higher
+- pip (Python package installer)
+
+2. Installation
+---------------
+- Open a terminal and navigate to your project folder:
+  cd "c:\Users\Admin\Desktop\React projects\aiBD"
+- Install dependencies:
+  pip install -r requirements.txt
+
+3. Running the Chatbot
+----------------------
+- Start the chatbot server:
+  python hybrid_app.py
+- Open your browser and go to:
+  http://localhost:5000
+
+4. Training & Teaching
+----------------------
+- Use the web interface to chat, give feedback, and teach new responses.
+- Access the Training Panel by clicking the brain icon 🧠.
+- Export or import training data from the Training Panel.
+
+5. Resetting Data
+-----------------
+- To reset all responses and training data, clear the contents of:
+  training_data/conversations.json
+  training_data/learned_patterns.json
+
+Enjoy your custom AI chatbot!
