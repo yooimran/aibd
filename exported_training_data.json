@@ -1,0 +1,72 @@
+{
+  "conversations": [
+    {
+      "timestamp": "2025-07-28T04:11:50.371965",
+      "user_input": "hi",
+      "bot_response": "Sorry, I don't know the answer yet. Please teach me!",
+      "feedback": null
+    },
+    {
+      "timestamp": "2025-07-28T04:13:36.382184",
+      "user_input": "Hi",
+      "bot_response": "Hi there",
+      "feedback": "User taught response"
+    },
+    {
+      "timestamp": "2025-07-28T04:13:39.591257",
+      "user_input": "hi",
+      "bot_response": "Hi there",
+      "feedback": null
+    },
+    {
+      "timestamp": "2025-07-28T04:13:44.007166",
+      "user_input": "hi",
+      "bot_response": "Hi there",
+      "feedback": null
+    },
+    {
+      "timestamp": "2025-07-28T04:13:47.805608",
+      "user_input": "Hi",
+      "bot_response": "Hi there",
+      "feedback": null
+    },
+    {
+      "timestamp": "2025-07-28T04:30:56.946083",
+      "user_input": "what is you name",
+      "bot_response": "my name is aibd",
+      "feedback": "User taught response"
+    },
+    {
+      "timestamp": "2025-07-28T04:31:07.098038",
+      "user_input": "what is your name",
+      "bot_response": "my name is aibd",
+      "feedback": null
+    },
+    {
+      "timestamp": "2025-07-28T04:31:14.470375",
+      "user_input": "Tell me about yourself",
+      "bot_response": "Sorry, I don't know the answer yet. Please teach me!",
+      "feedback": null
+    }
+  ],
+  "patterns": {
+    "what": [
+      "my name is aibd"
+    ],
+    "you": [
+      "my name is aibd"
+    ],
+    "name": [
+      "my name is aibd"
+    ]
+  },
+  "stats": {
+    "total_conversations": 8,
+    "positive_feedback": 2,
+    "negative_feedback": 0,
+    "learned_patterns": 3,
+    "total_pattern_responses": 3,
+    "learning_rate": "25.0%"
+  },
+  "export_date": "2025-07-28T04:31:42.118312"
+}

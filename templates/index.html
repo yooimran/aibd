@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-BD - Your Personal Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="chat-header">
+            <div class="header-content">
+                <div class="ai-avatar">
+                    <div class="avatar-circle">
+                        <i class="fas fa-robot"></i>
+                        <div class="pulse-ring"></div>
+                    </div>
+                </div>
+                <div class="ai-info">
+                    <h1>AI-BD</h1>
+                    <p class="status">
+                        <span class="status-dot"></span>
+                        Online & Ready to Chat
+                    </p>
+                </div>
+                <div class="header-actions">
+                    <button class="action-btn" onclick="showTrainingPanel()" title="Training Panel">
+                        <i class="fas fa-brain"></i>
+                    </button>
+                    <button class="action-btn" onclick="clearChat()" title="Clear Chat">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                    <button class="action-btn" onclick="toggleTheme()" title="Change Theme">
+                        <i class="fas fa-palette"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Chat Container -->
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <!-- Welcome Message -->
+                <div class="message-wrapper bot-message">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <div class="message-bubble">
+                            <p>🌟 Welcome to AI-BD! I'm your personal AI assistant, built with care and attention to provide meaningful conversations. I'm here to chat, help, and learn together with you!</p>
+                            <div class="message-suggestions">
+                                <button class="suggestion-btn" onclick="sendSuggestion('Hello! How are you today?')">
+                                    👋 Say Hello
+                                </button>
+                                <button class="suggestion-btn" onclick="sendSuggestion('What can you help me with?')">
+                                    ❓ What can you do?
+                                </button>
+                                <button class="suggestion-btn" onclick="sendSuggestion('Tell me about artificial intelligence')">
+                                    🤖 About AI
+                                </button>
+                            </div>
+                        </div>
+                        <div class="message-time">Just now</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Typing Indicator -->
+            <div class="typing-indicator" id="typingIndicator" style="display: none;">
+                <div class="message-wrapper bot-message">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <div class="typing-bubble">
+                            <div class="typing-dots">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-container">
+            <div class="input-wrapper">
+                <button class="attachment-btn" title="Add attachment">
+                    <i class="fas fa-paperclip"></i>
+                </button>
+                <input 
+                    type="text" 
+                    id="messageInput" 
+                    placeholder="Type your message here... Press Enter to send"
+                    autocomplete="off"
+                    maxlength="500"
+                >
+                <button class="send-btn" id="sendButton" onclick="sendMessage()">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+            <div class="input-footer">
+                <span class="char-counter">
+                    <span id="charCount">0</span>/500
+                </span>
+                <span class="powered-by">
+                    Powered by Custom AI Engine
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Training Panel -->
+    <div class="training-panel" id="trainingPanel" style="display: none;">
+        <div class="training-content">
+            <div class="training-header">
+                <h3><i class="fas fa-brain"></i> AI Training Center</h3>
+                <button class="close-btn" onclick="hideTrainingPanel()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="training-sections">
+                <!-- Training Stats -->
+                <div class="training-section">
+                    <h4><i class="fas fa-chart-line"></i> Training Progress</h4>
+                    <div class="training-stats" id="trainingStats">
+                        <div class="stat-item">
+                            <span class="stat-label">Conversations:</span>
+                            <span class="stat-value" id="conversationCount">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Feedback Received:</span>
+                            <span class="stat-value" id="feedbackCount">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Average Rating:</span>
+                            <span class="stat-value" id="averageRating">N/A</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">ML Model:</span>
+                            <span class="stat-value" id="mlModelStatus">Not Trained</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Training Actions -->
+                <div class="training-section">
+                    <h4><i class="fas fa-tools"></i> Training Actions</h4>
+                    <div class="training-buttons">
+                        <button class="training-btn" onclick="retrainModel()">
+                            <i class="fas fa-cog"></i> Retrain AI Model
+                        </button>
+                        <button class="training-btn" onclick="exportTraining()">
+                            <i class="fas fa-download"></i> Export Training Data
+                        </button>
+                        <button class="training-btn" onclick="refreshStats()">
+                            <i class="fas fa-sync"></i> Refresh Stats
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Teach AI -->
+                <div class="training-section">
+                    <h4><i class="fas fa-graduation-cap"></i> Teach AI-BD</h4>
+                    <div class="teach-form">
+                        <input type="text" id="teachInput" placeholder="If someone says..." class="teach-input">
+                        <textarea id="teachResponse" placeholder="AI-BD should respond with..." class="teach-textarea"></textarea>
+                        <button class="training-btn" onclick="teachAI()">
+                            <i class="fas fa-plus"></i> Add to Knowledge
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Animation -->
+    <div class="background-animation">
+        <div class="floating-particle"></div>
+        <div class="floating-particle"></div>
+        <div class="floating-particle"></div>
+        <div class="floating-particle"></div>
+        <div class="floating-particle"></div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-selector" id="themeSelector" style="display: none;">
+        <div class="theme-option" data-theme="default">
+            <div class="theme-preview" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+            <span>Default</span>
+        </div>
+        <div class="theme-option" data-theme="ocean">
+            <div class="theme-preview" style="background: linear-gradient(135deg, #2196F3 0%, #21CBF3 100%);"></div>
+            <span>Ocean</span>
+        </div>
+        <div class="theme-option" data-theme="forest">
+            <div class="theme-preview" style="background: linear-gradient(135deg, #4CAF50 0%, #8BC34A 100%);"></div>
+            <span>Forest</span>
+        </div>
+        <div class="theme-option" data-theme="sunset">
+            <div class="theme-preview" style="background: linear-gradient(135deg, #FF6B6B 0%, #FFE66D 100%);"></div>
+            <span>Sunset</span>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
