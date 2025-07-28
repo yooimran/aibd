@@ -1,50 +1,50 @@
 [
   {
-    "timestamp": "2025-07-28T04:11:50.371965",
-    "user_input": "hi",
-    "bot_response": "Sorry, I don't know the answer yet. Please teach me!",
+    "timestamp": "2025-07-28T06:21:34.955312",
+    "user_input": "Hello! How are you today?",
+    "bot_response": "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!",
     "feedback": null
   },
   {
-    "timestamp": "2025-07-28T04:13:36.382184",
-    "user_input": "Hi",
-    "bot_response": "Hi there",
+    "timestamp": "2025-07-28T06:21:45.723691",
+    "user_input": "dhaka",
+    "bot_response": "Dhaka, formerly spelled as Dacca, is the capital and largest city of Bangladesh. It is one of the largest and most densely populated cities in the world with a density of about 34,000 citizens per square kilometers within a total area of approximately 300 square kilometers. Dhaka is a megacity, and has a population of 10.2 million as of 2024, and a population of over 23.9 million in Dhaka Metropolitan Area. It is widely considered to be the most densely populated built-up urban area in the world. Dhaka is an important cultural, economic, and scientific hub of Eastern South Asia, as well as a major Muslim-majority city. Dhaka ranks third in South Asia and 39th in the world in terms of GDP. Lying on the Ganges Delta, it is bounded by the Buriganga, Turag, Dhaleshwari and Shitalakshya rivers. It is also the largest Bengali-speaking city in the world.",
     "feedback": "User taught response"
   },
   {
-    "timestamp": "2025-07-28T04:13:39.591257",
-    "user_input": "hi",
-    "bot_response": "Hi there",
+    "timestamp": "2025-07-28T06:21:45.725966",
+    "user_input": "dhaka",
+    "bot_response": "Dhaka, formerly spelled as Dacca, is the capital and largest city of Bangladesh. It is one of the largest and most densely populated cities in the world with a density of about 34,000 citizens per square kilometers within a total area of approximately 300 square kilometers. Dhaka is a megacity, and has a population of 10.2 million as of 2024, and a population of over 23.9 million in Dhaka Metropolitan Area. It is widely considered to be the most densely populated built-up urban area in the world. Dhaka is an important cultural, economic, and scientific hub of Eastern South Asia, as well as a major Muslim-majority city. Dhaka ranks third in South Asia and 39th in the world in terms of GDP. Lying on the Ganges Delta, it is bounded by the Buriganga, Turag, Dhaleshwari and Shitalakshya rivers. It is also the largest Bengali-speaking city in the world.",
     "feedback": null
   },
   {
-    "timestamp": "2025-07-28T04:13:44.007166",
-    "user_input": "hi",
-    "bot_response": "Hi there",
+    "timestamp": "2025-07-28T06:22:40.969459",
+    "user_input": "give me python class",
+    "bot_response": "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!",
     "feedback": null
   },
   {
-    "timestamp": "2025-07-28T04:13:47.805608",
-    "user_input": "Hi",
-    "bot_response": "Hi there",
-    "feedback": null
-  },
-  {
-    "timestamp": "2025-07-28T04:30:56.946083",
-    "user_input": "what is you name",
-    "bot_response": "my name is aibd",
+    "timestamp": "2025-07-28T06:31:12.500465",
+    "user_input": "wre",
+    "bot_response": "WRE, or wre, may refer to:Weapons Research Establishment, an Australian military program now part of the Defence Science and Technology Group\nWeekday Religious Education, a program of religious education in some American public schools\nWestern Roman Empire\nWindows Recovery Environment, a feature of the Microsoft Windows operating system\nWRE, the IATA code for Whangarei Airport on the North Island, New Zealand\nwre, the ISO 639-3 code for the Ware language, an extinct language once spoken near Lake Victoria in East Africa\nWRE, the National Rail code for Wrenbury railway station in Cheshire, UKSee alsoAll pages with titles containing WRE\nAll pages with titles beginning with WRE \n\n",
     "feedback": "User taught response"
   },
   {
-    "timestamp": "2025-07-28T04:31:07.098038",
-    "user_input": "what is your name",
-    "bot_response": "my name is aibd",
+    "timestamp": "2025-07-28T06:31:12.502543",
+    "user_input": "wre",
+    "bot_response": "WRE, or wre, may refer to:Weapons Research Establishment, an Australian military program now part of the Defence Science and Technology Group\nWeekday Religious Education, a program of religious education in some American public schools\nWestern Roman Empire\nWindows Recovery Environment, a feature of the Microsoft Windows operating system\nWRE, the IATA code for Whangarei Airport on the North Island, New Zealand\nwre, the ISO 639-3 code for the Ware language, an extinct language once spoken near Lake Victoria in East Africa\nWRE, the National Rail code for Wrenbury railway station in Cheshire, UKSee alsoAll pages with titles containing WRE\nAll pages with titles beginning with WRE \n\n",
     "feedback": null
   },
   {
-    "timestamp": "2025-07-28T04:31:14.470375",
-    "user_input": "Tell me about yourself",
-    "bot_response": "Sorry, I don't know the answer yet. Please teach me!",
+    "timestamp": "2025-07-28T06:31:20.966898",
+    "user_input": "what is python",
+    "bot_response": "Found code in GitHub repo: saitoha/libsixel\nFile: NEWS\nURL: https://github.com/saitoha/libsixel/blob/6a5be8b72d84037b83a5ea838e17bcf372ab1d5f/NEWS\n\nCode snippet:\n\n                  ------------------------------\n                   What's new in libsixel-1.8 ?\n                  ------------------------------\n\n* python: Fix broken python interface problem(#128), reported by @fd00.\n\n* build: Introduce VPATH build support(#56), suggested by @tkelman.\n\n* Security fix for CVE-2019-20205 (#127), integer overflow problem,\n  reported by @sleicasper.\n\n* Security fix for CVE-2019-20056 (#126), assertion failure problem,\n  reported by @sleicasper.\n\n* Security fix fo",
+    "feedback": "User taught response"
+  },
+  {
+    "timestamp": "2025-07-28T06:31:20.968757",
+    "user_input": "what is python",
+    "bot_response": "Found code in GitHub repo: saitoha/libsixel\nFile: NEWS\nURL: https://github.com/saitoha/libsixel/blob/6a5be8b72d84037b83a5ea838e17bcf372ab1d5f/NEWS\n\nCode snippet:\n\n                  ------------------------------\n                   What's new in libsixel-1.8 ?\n                  ------------------------------\n\n* python: Fix broken python interface problem(#128), reported by @fd00.\n\n* build: Introduce VPATH build support(#56), suggested by @tkelman.\n\n* Security fix for CVE-2019-20205 (#127), integer overflow problem,\n  reported by @sleicasper.\n\n* Security fix for CVE-2019-20056 (#126), assertion failure problem,\n  reported by @sleicasper.\n\n* Security fix fo",
     "feedback": null
   }
 ]
