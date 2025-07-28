@@ -10,5 +10,29 @@
   ],
   "python": [
     "Found code in GitHub repo: saitoha/libsixel\nFile: NEWS\nURL: https://github.com/saitoha/libsixel/blob/6a5be8b72d84037b83a5ea838e17bcf372ab1d5f/NEWS\n\nCode snippet:\n\n                  ------------------------------\n                   What's new in libsixel-1.8 ?\n                  ------------------------------\n\n* python: Fix broken python interface problem(#128), reported by @fd00.\n\n* build: Introduce VPATH build support(#56), suggested by @tkelman.\n\n* Security fix for CVE-2019-20205 (#127), integer overflow problem,\n  reported by @sleicasper.\n\n* Security fix for CVE-2019-20056 (#126), assertion failure problem,\n  reported by @sleicasper.\n\n* Security fix fo"
+  ],
+  "give": [
+    "Found code in GitHub repo: tamagui/tamagui\nFile: next.md\nURL: https://github.com/tamagui/tamagui/blob/6c055fe709951d65ba6b4e41516fcf9967e7ae44/next.md\n\nCode snippet:\n- docs on reprop context on ios new arch\n\n- popover bring back dismissable - document dismissable etc\n- in SheetImplCustom bad logic for pulling up when scroll view inside\n  - if scrollview isn't able to scroll we shouldn't disable that behavior:\n    `if (scrollEnabled.current && hasScrollView.current && isDraggingUp) {`\n    - we can: pass in scrollable node selector\n    - do logic to determine if its actually scrollable\n\n- Dialog.Overlay shouldn't need to define key for animation\n- apply visibi"
+  ],
+  "tailwind": [
+    "Found code in GitHub repo: tamagui/tamagui\nFile: next.md\nURL: https://github.com/tamagui/tamagui/blob/6c055fe709951d65ba6b4e41516fcf9967e7ae44/next.md\n\nCode snippet:\n- docs on reprop context on ios new arch\n\n- popover bring back dismissable - document dismissable etc\n- in SheetImplCustom bad logic for pulling up when scroll view inside\n  - if scrollview isn't able to scroll we shouldn't disable that behavior:\n    `if (scrollEnabled.current && hasScrollView.current && isDraggingUp) {`\n    - we can: pass in scrollable node selector\n    - do logic to determine if its actually scrollable\n\n- Dialog.Overlay shouldn't need to define key for animation\n- apply visibi"
+  ],
+  "css": [
+    "Found code in GitHub repo: tamagui/tamagui\nFile: next.md\nURL: https://github.com/tamagui/tamagui/blob/6c055fe709951d65ba6b4e41516fcf9967e7ae44/next.md\n\nCode snippet:\n- docs on reprop context on ios new arch\n\n- popover bring back dismissable - document dismissable etc\n- in SheetImplCustom bad logic for pulling up when scroll view inside\n  - if scrollview isn't able to scroll we shouldn't disable that behavior:\n    `if (scrollEnabled.current && hasScrollView.current && isDraggingUp) {`\n    - we can: pass in scrollable node selector\n    - do logic to determine if its actually scrollable\n\n- Dialog.Overlay shouldn't need to define key for animation\n- apply visibi"
+  ],
+  "class": [
+    "Found code in GitHub repo: tamagui/tamagui\nFile: next.md\nURL: https://github.com/tamagui/tamagui/blob/6c055fe709951d65ba6b4e41516fcf9967e7ae44/next.md\n\nCode snippet:\n- docs on reprop context on ios new arch\n\n- popover bring back dismissable - document dismissable etc\n- in SheetImplCustom bad logic for pulling up when scroll view inside\n  - if scrollview isn't able to scroll we shouldn't disable that behavior:\n    `if (scrollEnabled.current && hasScrollView.current && isDraggingUp) {`\n    - we can: pass in scrollable node selector\n    - do logic to determine if its actually scrollable\n\n- Dialog.Overlay shouldn't need to define key for animation\n- apply visibi"
+  ],
+  "hello": [
+    "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!"
+  ],
+  "how": [
+    "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!"
+  ],
+  "you": [
+    "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!"
+  ],
+  "today": [
+    "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!"
   ]
 }

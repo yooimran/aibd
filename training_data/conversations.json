@@ -1,50 +1,278 @@
 [
   {
-    "timestamp": "2025-07-28T06:21:34.955312",
+    "timestamp": "2025-07-28T04:11:50.371965",
+    "user_input": "hi",
+    "bot_response": "Sorry, I don't know the answer yet. Please teach me!",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T04:13:36.382184",
+    "user_input": "Hi",
+    "bot_response": "Hi there",
+    "feedback": "User taught response"
+  },
+  {
+    "timestamp": "2025-07-28T04:13:39.591257",
+    "user_input": "hi",
+    "bot_response": "Hi there",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T04:13:44.007166",
+    "user_input": "hi",
+    "bot_response": "Hi there",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T04:13:47.805608",
+    "user_input": "Hi",
+    "bot_response": "Hi there",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T04:30:56.946083",
+    "user_input": "what is you name",
+    "bot_response": "my name is aibd",
+    "feedback": "User taught response"
+  },
+  {
+    "timestamp": "2025-07-28T04:31:07.098038",
+    "user_input": "what is your name",
+    "bot_response": "my name is aibd",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T04:31:14.470375",
+    "user_input": "Tell me about yourself",
+    "bot_response": "Sorry, I don't know the answer yet. Please teach me!",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T05:32:04.303708",
+    "user_input": "hi",
+    "bot_response": "Hi there",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T05:32:11.968253",
+    "user_input": "Tell me a fun fact",
+    "bot_response": "Sorry, I don't know the answer yet. Please teach me!",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T05:35:27.993255",
+    "user_input": "Hello! How are you today?",
+    "bot_response": "my name is aibd",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T05:35:34.737434",
+    "user_input": "What can you help me with?",
+    "bot_response": "my name is aibd",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T05:35:40.449772",
+    "user_input": "Tell me about artificial intelligence",
+    "bot_response": "Sorry, I don't know the answer yet. Please teach me!",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T05:35:55.056831",
+    "user_input": "Tell me about artificial intelligence",
+    "bot_response": "Tell me about artificial intelligence\n\nvvvvvvvvvvv",
+    "feedback": "User taught response"
+  },
+  {
+    "timestamp": "2025-07-28T05:44:27.114329",
+    "user_input": "Tell me about artificial intelligence",
+    "bot_response": "Tell me about artificial intelligence\n\nvvvvvvvvvvv",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T05:44:42.062979",
+    "user_input": "Tell me about yourself",
+    "bot_response": "Tell me about artificial intelligence\n\nvvvvvvvvvvv",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T05:56:14.102223",
+    "user_input": "What can you help me with?",
+    "bot_response": "my name is aibd",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T05:56:31.016424",
+    "user_input": "what is capital of bangladesh",
+    "bot_response": "my name is aibd",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T05:56:52.643818",
+    "user_input": "bd",
+    "bot_response": "BD, Bd or bd may refer to:",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T05:57:04.793441",
+    "user_input": "bangladesh",
+    "bot_response": "Bangladesh, officially the People's Republic of Bangladesh, is a country in South Asia. It is the eighth-most populous country in the world and among the most densely populated with a population of over 171 million within an area of 148,460 square kilometres (57,320 sq mi). Bangladesh shares land borders with India to the north, west, and east, and Myanmar to the southeast. It has a coastline along the Bay of Bengal to its south and is separated from Bhutan and Nepal by the Siliguri Corridor, and from China by the Indian state of Sikkim to its north. Dhaka, the capital and largest city, is the nation's political, financial, and cultural centre. Chittagong is the second-largest city and the busiest port of the country.",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T05:57:34.693786",
+    "user_input": "who are u",
+    "bot_response": "No Wikipedia page found for that topic.",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T05:58:09.294673",
+    "user_input": "who are u",
+    "bot_response": "I am aibd",
+    "feedback": "User taught response"
+  },
+  {
+    "timestamp": "2025-07-28T05:58:15.232345",
+    "user_input": "who are u",
+    "bot_response": "I am aibd",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T05:58:45.397403",
+    "user_input": "Tell me about artificial intelligence",
+    "bot_response": "Tell me about artificial intelligence\n\nvvvvvvvvvvv",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T05:58:49.615202",
+    "user_input": "Hello! How are you today?",
+    "bot_response": "my name is aibd",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T06:01:21.925363",
+    "user_input": "gg",
+    "bot_response": "GG may refer to:",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T06:03:29.248776",
+    "user_input": "give me html for protfolio website",
+    "bot_response": "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!",
+    "feedback": "User taught response"
+  },
+  {
+    "timestamp": "2025-07-28T06:03:29.251981",
+    "user_input": "give me html for protfolio website",
+    "bot_response": "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T06:03:40.960946",
+    "user_input": "what is html",
+    "bot_response": "my name is aibd",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T06:03:56.741417",
+    "user_input": "what is html mean",
+    "bot_response": "my name is aibd",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T06:04:05.977280",
+    "user_input": "html",
+    "bot_response": "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T06:04:18.127833",
+    "user_input": "html css mean",
+    "bot_response": "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T06:04:24.745341",
+    "user_input": "dhak",
+    "bot_response": "Dhak may refer to:Butea monosperma, also known as palash, flame of the forest or parrot tree\nDhak (instrument), a type of Indian drum\nDhak railway station, in Punjab, Pakistan",
+    "feedback": "User taught response"
+  },
+  {
+    "timestamp": "2025-07-28T06:04:24.746693",
+    "user_input": "dhak",
+    "bot_response": "Dhak may refer to:Butea monosperma, also known as palash, flame of the forest or parrot tree\nDhak (instrument), a type of Indian drum\nDhak railway station, in Punjab, Pakistan",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T06:04:40.705624",
+    "user_input": "dhaka",
+    "bot_response": "Dhaka, formerly spelled as Dacca, is the capital and largest city of Bangladesh. It is one of the largest and most densely populated cities in the world with a density of about 34,000 citizens per square kilometers within a total area of approximately 300 square kilometers. Dhaka is a megacity, and has a population of 10.2 million as of 2024, and a population of over 23.9 million in Dhaka Metropolitan Area. It is widely considered to be the most densely populated built-up urban area in the world. Dhaka is an important cultural, economic, and scientific hub of Eastern South Asia, as well as a major Muslim-majority city. Dhaka ranks third in South Asia and 39th in the world in terms of GDP. Lying on the Ganges Delta, it is bounded by the Buriganga, Turag, Dhaleshwari and Shitalakshya rivers. It is also the largest Bengali-speaking city in the world.",
+    "feedback": "User taught response"
+  },
+  {
+    "timestamp": "2025-07-28T06:04:40.707991",
+    "user_input": "dhaka",
+    "bot_response": "Dhaka, formerly spelled as Dacca, is the capital and largest city of Bangladesh. It is one of the largest and most densely populated cities in the world with a density of about 34,000 citizens per square kilometers within a total area of approximately 300 square kilometers. Dhaka is a megacity, and has a population of 10.2 million as of 2024, and a population of over 23.9 million in Dhaka Metropolitan Area. It is widely considered to be the most densely populated built-up urban area in the world. Dhaka is an important cultural, economic, and scientific hub of Eastern South Asia, as well as a major Muslim-majority city. Dhaka ranks third in South Asia and 39th in the world in terms of GDP. Lying on the Ganges Delta, it is bounded by the Buriganga, Turag, Dhaleshwari and Shitalakshya rivers. It is also the largest Bengali-speaking city in the world.",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T06:05:22.916350",
+    "user_input": "give me code for a website",
+    "bot_response": "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!",
+    "feedback": null
+  },
+  {
+    "timestamp": "2025-07-28T22:49:02.700270",
+    "user_input": "Hello! How are you today?",
+    "bot_response": "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!",
+    "feedback": "User taught response"
+  },
+  {
+    "timestamp": "2025-07-28T22:49:02.701672",
     "user_input": "Hello! How are you today?",
     "bot_response": "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!",
     "feedback": null
   },
   {
-    "timestamp": "2025-07-28T06:21:45.723691",
-    "user_input": "dhaka",
-    "bot_response": "Dhaka, formerly spelled as Dacca, is the capital and largest city of Bangladesh. It is one of the largest and most densely populated cities in the world with a density of about 34,000 citizens per square kilometers within a total area of approximately 300 square kilometers. Dhaka is a megacity, and has a population of 10.2 million as of 2024, and a population of over 23.9 million in Dhaka Metropolitan Area. It is widely considered to be the most densely populated built-up urban area in the world. Dhaka is an important cultural, economic, and scientific hub of Eastern South Asia, as well as a major Muslim-majority city. Dhaka ranks third in South Asia and 39th in the world in terms of GDP. Lying on the Ganges Delta, it is bounded by the Buriganga, Turag, Dhaleshwari and Shitalakshya rivers. It is also the largest Bengali-speaking city in the world.",
-    "feedback": "User taught response"
-  },
-  {
-    "timestamp": "2025-07-28T06:21:45.725966",
-    "user_input": "dhaka",
-    "bot_response": "Dhaka, formerly spelled as Dacca, is the capital and largest city of Bangladesh. It is one of the largest and most densely populated cities in the world with a density of about 34,000 citizens per square kilometers within a total area of approximately 300 square kilometers. Dhaka is a megacity, and has a population of 10.2 million as of 2024, and a population of over 23.9 million in Dhaka Metropolitan Area. It is widely considered to be the most densely populated built-up urban area in the world. Dhaka is an important cultural, economic, and scientific hub of Eastern South Asia, as well as a major Muslim-majority city. Dhaka ranks third in South Asia and 39th in the world in terms of GDP. Lying on the Ganges Delta, it is bounded by the Buriganga, Turag, Dhaleshwari and Shitalakshya rivers. It is also the largest Bengali-speaking city in the world.",
-    "feedback": null
-  },
-  {
-    "timestamp": "2025-07-28T06:22:40.969459",
-    "user_input": "give me python class",
+    "timestamp": "2025-07-28T22:49:08.454586",
+    "user_input": "Hello! How are you today?",
     "bot_response": "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!",
-    "feedback": null
+    "feedback": "Positive feedback"
   },
   {
-    "timestamp": "2025-07-28T06:31:12.500465",
-    "user_input": "wre",
-    "bot_response": "WRE, or wre, may refer to:Weapons Research Establishment, an Australian military program now part of the Defence Science and Technology Group\nWeekday Religious Education, a program of religious education in some American public schools\nWestern Roman Empire\nWindows Recovery Environment, a feature of the Microsoft Windows operating system\nWRE, the IATA code for Whangarei Airport on the North Island, New Zealand\nwre, the ISO 639-3 code for the Ware language, an extinct language once spoken near Lake Victoria in East Africa\nWRE, the National Rail code for Wrenbury railway station in Cheshire, UKSee alsoAll pages with titles containing WRE\nAll pages with titles beginning with WRE \n\n",
-    "feedback": "User taught response"
+    "timestamp": "2025-07-28T22:49:10.299632",
+    "user_input": "Hello! How are you today?",
+    "bot_response": "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!",
+    "feedback": "Needs improvement"
   },
   {
-    "timestamp": "2025-07-28T06:31:12.502543",
-    "user_input": "wre",
-    "bot_response": "WRE, or wre, may refer to:Weapons Research Establishment, an Australian military program now part of the Defence Science and Technology Group\nWeekday Religious Education, a program of religious education in some American public schools\nWestern Roman Empire\nWindows Recovery Environment, a feature of the Microsoft Windows operating system\nWRE, the IATA code for Whangarei Airport on the North Island, New Zealand\nwre, the ISO 639-3 code for the Ware language, an extinct language once spoken near Lake Victoria in East Africa\nWRE, the National Rail code for Wrenbury railway station in Cheshire, UKSee alsoAll pages with titles containing WRE\nAll pages with titles beginning with WRE \n\n",
-    "feedback": null
+    "timestamp": "2025-07-28T22:49:11.902774",
+    "user_input": "Hello! How are you today?",
+    "bot_response": "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!",
+    "feedback": "Positive feedback"
   },
   {
-    "timestamp": "2025-07-28T06:31:20.966898",
-    "user_input": "what is python",
-    "bot_response": "Found code in GitHub repo: saitoha/libsixel\nFile: NEWS\nURL: https://github.com/saitoha/libsixel/blob/6a5be8b72d84037b83a5ea838e17bcf372ab1d5f/NEWS\n\nCode snippet:\n\n                  ------------------------------\n                   What's new in libsixel-1.8 ?\n                  ------------------------------\n\n* python: Fix broken python interface problem(#128), reported by @fd00.\n\n* build: Introduce VPATH build support(#56), suggested by @tkelman.\n\n* Security fix for CVE-2019-20205 (#127), integer overflow problem,\n  reported by @sleicasper.\n\n* Security fix for CVE-2019-20056 (#126), assertion failure problem,\n  reported by @sleicasper.\n\n* Security fix fo",
-    "feedback": "User taught response"
+    "timestamp": "2025-07-28T22:49:16.497672",
+    "user_input": "Hello! How are you today?",
+    "bot_response": "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!",
+    "feedback": "Positive feedback"
   },
   {
-    "timestamp": "2025-07-28T06:31:20.968757",
-    "user_input": "what is python",
-    "bot_response": "Found code in GitHub repo: saitoha/libsixel\nFile: NEWS\nURL: https://github.com/saitoha/libsixel/blob/6a5be8b72d84037b83a5ea838e17bcf372ab1d5f/NEWS\n\nCode snippet:\n\n                  ------------------------------\n                   What's new in libsixel-1.8 ?\n                  ------------------------------\n\n* python: Fix broken python interface problem(#128), reported by @fd00.\n\n* build: Introduce VPATH build support(#56), suggested by @tkelman.\n\n* Security fix for CVE-2019-20205 (#127), integer overflow problem,\n  reported by @sleicasper.\n\n* Security fix for CVE-2019-20056 (#126), assertion failure problem,\n  reported by @sleicasper.\n\n* Security fix fo",
-    "feedback": null
+    "timestamp": "2025-07-28T22:49:18.022116",
+    "user_input": "Hello! How are you today?",
+    "bot_response": "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!",
+    "feedback": "Needs improvement"
+  },
+  {
+    "timestamp": "2025-07-28T22:49:20.006984",
+    "user_input": "Hello! How are you today?",
+    "bot_response": "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!",
+    "feedback": "Positive feedback"
+  },
+  {
+    "timestamp": "2025-07-28T22:49:20.526044",
+    "user_input": "Hello! How are you today?",
+    "bot_response": "Sorry, I couldn't find an answer for that. Please try asking in a different way or teach me!",
+    "feedback": "Needs improvement"
   }
 ]
